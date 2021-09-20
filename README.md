@@ -5,7 +5,7 @@
 ## Integrantes do grupo 
  * Igor Isidoro de Brito - isidoroigor9@gmail.com
  * Vítor Alencar de Souza Carvalho - vitohrs@gmail.com
- * 
+ * Thiago Tavares Carreiro de Barros - thiago.carreiro@hotmail.com
  * 
  
 ## Descrição geral do projeto 
