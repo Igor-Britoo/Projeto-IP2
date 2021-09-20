@@ -5,7 +5,7 @@
 ## Integrantes do grupo 
  * Igor Isidoro de Brito - isidoroigor9@gmail.com
  * Evando da Silva Filho - evandosfilho@utic.pe.senac.br
- * 
+ * Thiago Tavares Carreiro de Barros - thiago.carreiro@hotmail.com
  * 
  
 ## Descrição geral do projeto 
