@@ -6,7 +6,7 @@
  * Igor Isidoro de Brito - isidoroigor9@gmail.com
  * Evando da Silva Filho - evandosfilho@utic.pe.senac.br
  * Thiago Tavares Carreiro de Barros - thiago.carreiro@hotmail.com
- * 
+ * Vítor Alencar de Souza Carvalho - vitohrs@gmail.com
  
 ## Descrição geral do projeto 
 O (nomeDoAplicativo), se trata de um aplicativo que lida com a gestão de um sistema hospitalar, que tem como objetivo proporcionar uma plataforma que torna mais eficientes alguns serviços como atendimento, cadastro e triagem de pacientes. O (nomeDoAplicativo) possui (n) interfaces, cada uma com funções específicas, que mudam de acordo com o tipo de usuário. 
