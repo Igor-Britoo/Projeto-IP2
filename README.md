@@ -1,6 +1,6 @@
 # Projeto-IP2
 
-# (nomeDoAplicativo)
+# SIM(SISTEMA INTEGRAL MEDICO)
 
 ## Integrantes do grupo 
  * Igor Isidoro de Brito - isidoroigor9@gmail.com
@@ -9,7 +9,7 @@
  * Vítor Alencar de Souza Carvalho - vitohrs@gmail.com
  
 ## Descrição geral do projeto 
-O (nomeDoAplicativo), se trata de um aplicativo que lida com a gestão de um sistema hospitalar, que tem como objetivo proporcionar uma plataforma que torna mais eficientes alguns serviços como atendimento, cadastro e triagem de pacientes. O (nomeDoAplicativo) possui (n) interfaces, cada uma com funções específicas, que mudam de acordo com o tipo de usuário. 
+O Sistema integral medico, ou simplesmente SIM, se trata de um aplicativo que lida com a gestão de um sistema hospitalar, que tem como objetivo proporcionar uma plataforma que torna mais eficientes alguns serviços como atendimento, cadastro e triagem de pacientes. O (nomeDoAplicativo) possui (n) interfaces, cada uma com funções específicas, que mudam de acordo com o tipo de usuário. 
  
 ## Requisitos do projeto
  * **REQ1** - O sistema deve gerenciar o acesso através de login e senha. Os usuários do sistema serão do tipo paciente e funcionário;
