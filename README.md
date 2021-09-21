@@ -23,8 +23,8 @@ O (nomeDoAplicativo), se trata de um aplicativo que lida com a gestão de um sis
  * **REQ9** - O sistema deve permitir o cadastro presencial do paciente;
  * **REQ10** - O sistema deve organizar e listar as consultas de acordo com o setor e a data marcada;
  * **REQ11** - O sistema deve ter os registros do usuário e serviços persistentes;
- * **REQ12** -
- * **REQ13** -
+ * **REQ12** - O sistema deve listar os médicos disponiveis de acordo com suas especialidades;
+ * **REQ13** - O sistema deve permitir adicionar e retirar médicos do quadro de funcionários;
  * **REQ14** -
  * **REQ15** -
  * **REQ16** -
