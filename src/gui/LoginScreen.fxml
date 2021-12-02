@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.LoginScreenController">
+	<left>
+		<AnchorPane prefHeight="600.0" prefWidth="250.0" style="-fx-background-color: tomato;" BorderPane.alignment="CENTER">
+			<children>
+				<Label layoutX="8.0" layoutY="76.0" prefHeight="256.0" prefWidth="235.0" style="-fx-text-fill: #ffffff;" text="O SIM ajuda a agendar e organizar consultas de forma simples e eficiente" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+					<font>
+						<Font name="System Bold Italic" size="25.0" />
+					</font>
+				</Label>
+				<Button id="btnLoginCadastro" fx:id="btnCadastrar" layoutX="24.0" layoutY="362.0" mnemonicParsing="false" onAction="#btnGoToCadastro" prefHeight="57.0" prefWidth="200.0" style="-fx-font-size: 18; -fx-font-weight: Bold; -fx-background-radius: 10px; -fx-border-radius: 8px;" stylesheets="@buttonsStyle.css" text="Cadastre-se" textFill="WHITE" wrapText="true">
+					<font>
+						<Font name="System Bold Italic" size="22.0" />
+					</font>
+				</Button>
+			</children>
+		</AnchorPane>
+	</left>
+	<center>
+		<AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+			<children>
+				<Button id="btnLoginCadastro" fx:id="btnEntrar" layoutX="211.0" layoutY="426.0" mnemonicParsing="false" onAction="#btnEntrarClicked" prefHeight="38.0" prefWidth="126.0" style="-fx-font-size: 16; -fx-font-weight: Bold; -fx-background-radius: 10px; -fx-border-radius: 8px;" stylesheets="@buttonsStyle.css" text="Entrar" textFill="WHITE" wrapText="true">
+					<font>
+						<Font name="System Bold" size="16.0" />
+					</font>
+				</Button>
+				<PasswordField fx:id="psdSenha" layoutX="150.0" layoutY="344.0" prefHeight="25.0" prefWidth="250.0" promptText="SENHA">
+					<font>
+						<Font size="14.0" />
+					</font>
+				</PasswordField>
+				<TextField fx:id="txtCPF" layoutX="150.0" layoutY="280.0" prefHeight="25.0" prefWidth="250.0" promptText="CPF">
+					<font>
+						<Font size="14.0" />
+					</font>
+				</TextField>
+				<ImageView fitHeight="248.0" fitWidth="499.0" layoutX="28.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@img/logoProjetoIP2.jpg" />
+					</image>
+				</ImageView>
+				<ImageView fitHeight="34.0" fitWidth="33.0" layoutX="203.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@img/locked_pad_icon.png" />
+					</image>
+				</ImageView>
+				<ImageView fitHeight="31.0" fitWidth="29.0" layoutX="103.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@img/key_icon.png" />
+					</image>
+				</ImageView>
+				<ImageView fitHeight="29.0" fitWidth="32.0" layoutX="103.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@img/user_icon.png" />
+					</image>
+				</ImageView>
+				<Label layoutX="250.0" layoutY="175.0" text="Login">
+					<font>
+						<Font name="System Bold" size="30.0" />
+					</font>
+				</Label>
+				<Pane layoutX="179.0" layoutY="219.0" prefHeight="4.0" prefWidth="192.0" style="-fx-background-color: red;" />
+			</children>
+		</AnchorPane>
+	</center>
+</BorderPane>

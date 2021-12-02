@@ -1,0 +1,52 @@
+#btnLoginCadastro{
+	-fx-background-color:red;
+	-fx-border-color:lightgray;
+	-fx-border-width:2.0px;
+	-fx-text-fill:white;
+}
+
+#btnLoginCadastro:hover {
+	/*-fx-background-color: #732424;*/
+	-fx-background-color: palegreen;
+	-fx-text-fill: white;
+}
+
+#btnMainScreenFuncionario{
+	-fx-background-color:#261263;
+	-fx-border-color:black;
+	-fx-text-fill:white;
+}
+
+#btnMainScreenFuncionario:hover{
+	-fx-background-color:darkblue;
+	-fx-border-color:white;
+	-fx-text-fill:white;
+}
+
+#btnMainScreenPaciente{
+	-fx-background-color:white;
+	-fx-border-color:black;
+	-fx-text-fill:black;
+}
+
+#btnMainScreenPaciente:hover{
+	-fx-background-color:#503a78;
+	-fx-border-color:white;
+	-fx-text-fill:white;
+}
+
+#btnListaScreens{
+	-fx-background-color:#261263;
+	-fx-border-color:black;
+	-fx-text-fill:white;
+}
+
+#btnListaScreens:hover{
+	-fx-background-color:#321c78;
+	-fx-border-color:white;
+	-fx-text-fill:white;
+}
+
+
+
+

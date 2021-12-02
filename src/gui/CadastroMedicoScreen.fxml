@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="field" prefHeight="440.0" prefWidth="550.0" style="-fx-background-color: white;" stylesheets="@buttonsStyle.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.CadastroMedicoScreenController">
+   <children>
+      <Label layoutX="176.0" layoutY="14.0" text="Cadastro Médico">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button id="btnLoginCadastro" fx:id="btnCancelar" layoutX="289.0" layoutY="367.0" mnemonicParsing="false" onAction="#btnCancelarClicked" prefHeight="38.0" prefWidth="126.0" style="-fx-font-size: 16; -fx-font-weight: Bold; -fx-background-radius: 10px; -fx-border-radius: 8px;" stylesheets="@buttonsStyle.css" text="Cancelar" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtCPF" layoutX="151.0" layoutY="163.0" prefHeight="25.0" prefWidth="250.0" promptText="CPF">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="34.0" fitWidth="33.0" layoutX="132.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/assignment_icon.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="76.0" layoutY="57.0" prefHeight="4.0" prefWidth="400.0" style="-fx-background-color: red;" />
+      <Button id="btnLoginCadastro" fx:id="btnConfirmar" layoutX="137.0" layoutY="367.0" mnemonicParsing="false" onAction="#btnConfirmarClicked" prefHeight="38.0" prefWidth="126.0" style="-fx-font-size: 16; -fx-font-weight: Bold; -fx-background-radius: 10px; -fx-border-radius: 8px;" stylesheets="@buttonsStyle.css" text="Confirmar" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtNome" layoutX="151.0" layoutY="99.0" prefHeight="25.0" prefWidth="250.0" promptText="NOME">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <DatePicker fx:id="dtNascimento" layoutX="151.0" layoutY="225.0" prefHeight="32.0" prefWidth="250.0" promptText="DATA DE NASCIMENTO" style="-fx-background-color: transparent; -fx-border-color: #bababa; -fx-border-radius: 3px;" />
+      <ComboBox fx:id="cbBoxEspecialidade" layoutX="151.0" layoutY="289.0" prefHeight="31.0" prefWidth="250.0" style="-fx-border-color: #bababa; -fx-background-color: transparent; -fx-border-width: 1px 1px 1px 1px; -fx-border-radius: 3px; -fx-text-fill: #bababa;" stylesheets="@buttonsStyle.css" />
+   </children>
+</AnchorPane>
